@@ -222,6 +222,10 @@ h2 {
     background-repeat: no-repeat;
 }
 
+#bg-image4 {
+    background-image: url(img/couple.jpg);
+}
+
 #bg-image3 {
     background-image: url(img/card.jpeg);
 }
