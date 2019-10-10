@@ -24,7 +24,9 @@
       <!-- scrollReveal.js -->
       <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
 
-
+<script>
+$(function() { return $(".carousel.lazy").on("slide", function(ev) { var lazy; lazy = $(ev.relatedTarget).find("img[data-src]"); lazy.attr("src", lazy.data('src')); lazy.removeAttr("data-src"); }); });
+</script>
 
    </head>
    <body>
@@ -537,14 +539,14 @@ I surrender myself to your love because its the sweetest and purest thing I’ve
             <h2>My Sexy Vamp</h2>
           <p style="color: #fff">You are the one who no only knows how to turn me on but also knows how to treat your vamp krackju😈. I miss you very much but I know, I will be with you soon and the most significant distance that will be one so we can hear each other's heart beats.</p>
           <div class="photo-section">
-<div id="vamp" class="carousel slide" data-ride="carousel"> <div class="carousel-inner"> <div class="carousel-item active"> <img class="d-block photo-size img-fluid m-auto" src="img/photos/vamp/img1.jpg" alt="First slide"> </div> <div class="carousel-item"> <img class="d-block photo-size img-fluid m-auto" src="img/photos/vamp/img2.jpg" alt="Second slide"> </div> <div class="carousel-item"> <img class="d-block photo-size img-fluid m-auto" src="img/photos/vamp/img3.jpg" alt="Third slide"> </div> <div class="carousel-item"> <img class="d-block photo-size img-fluid m-auto" src="img/photos/vamp/img4.jpg" alt="Fourth slide"> </div>
-<div class="carousel-item"> <img class="d-block photo-size img-fluid m-auto" src="img/photos/vamp/img5.jpg" alt="Fifth slide"> </div> 
-<div class="carousel-item"> <img class="d-block photo-size img-fluid m-auto" src="img/photos/vamp/img6.jpg" alt="Sixth slide"> </div> 
+<div id="vamp" class="carousel slide lazy" data-ride="carousel"> <div class="carousel-inner"> <div class="carousel-item active"> <img class="d-block photo-size img-fluid m-auto" src="img/photos/vamp/img1.jpg" alt="First slide"> </div> <div class="carousel-item"> <img class="d-block photo-size img-fluid m-auto" data-src="img/photos/vamp/img2.jpg" alt="Second slide"> </div> <div class="carousel-item"> <img class="d-block photo-size img-fluid m-auto" data-src="img/photos/vamp/img3.jpg" alt="Third slide"> </div> <div class="carousel-item"> <img class="d-block photo-size img-fluid m-auto" data-src="img/photos/vamp/img4.jpg" alt="Fourth slide"> </div>
+<div class="carousel-item"> <img class="d-block photo-size img-fluid m-auto" data-src="img/photos/vamp/img5.jpg" alt="Fifth slide"> </div> 
+<div class="carousel-item"> <img class="d-block photo-size img-fluid m-auto" data-src="img/photos/vamp/img6.jpg" alt="Sixth slide"> </div> 
 </div> <a class="carousel-control-prev" href="#vamp" role="button" data-slide="prev"> <span class="carousel-control-prev-icon"></span> </a> <a class="carousel-control-next" href="#vamp" role="button" data-slide="next"> <span class="carousel-control-next-icon"></span> </a> </div>
 
 </div>
             
-<p> I just can’t wait to have you in my arms 🤗 and kiss you 😘 when my head can’t think of anything to say.</p>
+<p style="color: #fff"> I just can’t wait to have you in my arms 🤗 and kiss you 😘 when my head can’t think of anything to say.</p>
           </div>
     </section>
 <section class="container-fluid" style="background-color: #ffcb05">
