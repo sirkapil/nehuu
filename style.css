@@ -227,15 +227,15 @@ h2 {
 }
 
 #bg-image3 {
-    background-image: url(img/card.jpeg);
+    background-image: url(img/card.jpg);
 }
 
 #bg-image2 {
-    background-image: url(img/balloons.jpeg);
+    background-image: url(img/balloons.jpg);
 }
 
 #bg-image1 {
-    background-image: url(img/gifts.jpeg);
+    background-image: url(img/gifts.jpg);
 }
 
 .carousel-control-next-icon, .carousel-control-prev-icon {
